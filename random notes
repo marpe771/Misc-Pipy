@@ -1,0 +1,8 @@
+## CPU temperature Raspberry Pi3
+vcgencmd measure_temp
+
+'''
+If temp > 82 CPU throttles.
+
+Avoid by checking temp during recording. if temp > 75: Actions: Break/logg/pause and recheck etc.
+'''
