@@ -16,3 +16,18 @@ vcgencmd commands commands=
 "vcos, ap_output_control, ap_output_post_processing, \ pm_set_policy, pm_get_status, pm_show_stats, pm_start_logging, \ pm_stop_logging, version, commands, set_vll_dir, \ led_control, set_backlight, set_logging, get_lcd_info, \ set_bus_arbiter_mode, cache_flush, otp_dump, codec_enabled, \ measure_clock, measure_volts, measure_temp, get_config, \ hdmi_ntsc_freqs, render_bar, disk_notify, inuse_notify, \ sus_suspend, sus_status, sus_is_enabled, \ sus_stop_test_thread, egl_platform_switch, mem_validate, \ mem_oom, mem_reloc_stats, file, vctest_memmap, vctest_start, \ vctest_stop, vctest_set, vctest_get"
 
 
+****
+mp4-wrapper from "MP4Box" in the 'gpac' package.
+
+http://elinux.org/Rpi_Camera_Module
+
+sudo apt-get update  
+sudo apt-get install gpac  
+MP4Box -add filename.h264 filename.mp4  
+
+MP4Box -add testnoir2.h264 testnoir2.mp4  
+  
+AVC-H264 import - frame size 1920 x 1080 at 25.000 FPS  
+AVC Import results: 594 samples - Slices: 10 I 584 P 0 B - 0 SEI - 10 IDR  
+Saving to testnoir2.mp4: 0.500 secs Interleaving
+*************
